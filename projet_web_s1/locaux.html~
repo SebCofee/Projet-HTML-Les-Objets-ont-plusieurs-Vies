@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>OPV - Locaux</title>
+			<link rel="stylesheet" type="text/css" href="locaux.css">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" type="text/css">
+		</head>
+
+	<body>
+		<div>
+  			<header>
+						<a href="http://aquanux/~11504512/projet/accueil.html">
+							<img id="img-head" src="logo.png" alt="logo" width=224px height=213px />
+						</a>
+    				<h1 id="titre">Les objets ont plusieurs vies !</h1>
+  			</header>
+		</div>
+
+		<nav>
+  			<ul id="navigation">
+				<li> 
+					<a href="http://aquanux/~11504512/projet/accueil.html"><img src="logo_home.png" alt="Home" class="img-nav"/></a> 
+				</li>
+    			<li class="liN onglet"> 
+						<a id="assoc" href="http://aquanux/~11504512/projet/association.html">L'Association</a> 
+					</li>
+    			<li class="liN onglet"> <a id="actu" href="http://aquanux/~11504512/projet/actu.html">L'Actu'</a></li>
+    			<li class="liN onglet"> <a id="galerie" href="http://aquanux/~11504512/projet/galerie.html">Galerie</a> </li>
+    			<li class="liN onglet"> <a id="locaux" href="http://aquanux/~11504512/projet/locaux.html">Le Q.G.</a> </li>
+    			<li class="liN onglet"> <a id="forum" href="http://aquanux/~11504512/projet/forum.html">Le Forum</a> </li>
+    			<li class="liN onglet"> <a id="contact" href="http://aquanux/~11504512/projet/contact.html">Contact</a> </li>
+    			<li> 			
+						<form role="search" method="get" class="forme" action="https://www.google.fr/">
+							<label>
+								<input type="recherche" 
+											class="espace-recherche" 
+											placeholder="Recherche"  
+											value="" name="q" 
+											title="Rechercher:">
+							</label>
+							<input type="submit" class="rech" value="Recherche" name="q">
+						</form>
+ 					</li>
+			</ul>
+		</nav>
+
+		<div>		
+			<a href="#"> <img src="bandeau-shop-link.jpg" alt="boutique" class="bandeau"/>	</a>
+			<a href="#"> <img src="bandeau-collecte-link.jpg" alt="collecte" class="bandeau"/> </a>
+			<a href="#"> <img src="bandeau-atelier-link.jpg" alt="atelier" class="bandeau"/> </a>
+		</div>
+
+		<div>		
+			<footer>
+				<a href="https://www.instagram.com/"><img src="inst.png" alt="Instagram" class="img-footer"/></a>
+				<a href="https://twitter.com/?lang=fr"><img src="logo-twitter-rond.png" alt="Twitter" class="img-footer"/></a>
+				<a href="https://fr-fr.facebook.com/"><img src="logo-facebook.png" alt="Facebook" class="img-footer"/></a>
+				<a id="CP" href="copyright.html" target="_blank">Copyright</a>
+				<a href="http://www.paris.fr/"><img src="paris.png" alt="mairie de Paris"/></a>
+				<a href="http://www.developpement-durable.gouv.fr/">
+					<img src="ministère écolo.jpg" alt="ministère écologique" width=60px height=60px />
+				</a>
+				<a href="https://www.univ-paris13.fr/"><img src="univp13.jpg" alt="UP13" width=170px height=60px /></a>
+			</footer>
+		</div>
+	</body>
+</html>

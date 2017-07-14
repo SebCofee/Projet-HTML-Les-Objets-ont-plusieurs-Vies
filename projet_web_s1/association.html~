@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>OPV - Association</title>
+		<link rel="stylesheet" type="text/css" href="association.css">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+
+		<div>
+  			<header>
+						<a href="accueil.html">
+							<img id="img-head" src="logo.png" alt="logo" width=224px height=213px />
+						</a>
+    				<h1 id="titre">Les objets ont plusieurs vies !</h1>
+  			</header>
+		</div>
+
+		<nav>
+  			<ul id="navigation">
+				<li> 
+					<a href="accueil.html"><img src="logo_home.png" alt="Home" class="img-nav"/></a> 
+				</li>
+    			<li class="liN onglet"> 
+						<a id="assoc" href="http://aquanux/~11504512/projet/association.html">L'Association</a> 
+					</li>
+    			<li class="liN onglet"> <a id="actu" href="actu.html">L'Actu'</a></li>
+    			<li class="liN onglet"> <a id="galerie" href="galerie.html">Galerie</a> </li>
+    			<li class="liN onglet"> <a id="locaux" href="locaux.html">Le Q.G.</a> </li>
+    			<li class="liN onglet"> <a id="forum" href="forum.html">Le Forum</a> </li>
+    			<li class="liN onglet"> <a id="contact" href="contact.html">Contact</a> </li>
+    			<li> 			
+						<form role="search" method="get" class="forme" action="https://www.google.fr/">
+							<label>
+								<input type="recherche" 
+											class="espace-recherche" 
+											placeholder="Recherche"  
+											value="" name="q" 
+											title="Rechercher:">
+							</label>
+							<input type="submit" class="rech" value="Recherche" name="q">
+						</form>
+ 					</li>
+			</ul>
+		</nav>
+
+
+
+	<div class="content">
+
+		<div class="titrecontent2">
+			<a href="#"> <h3 class="texte"> Coin des artistes </h3> </a>
+			<a href="#" > <img class="img2" src="expo3.PNG" alt="expo" height=150px width=300px /></a></div>
+
+		<div class="titrecontent2">
+			<a href="#"><h3 class="texte"> Conférences </h3></a>
+			<a href="#" > <img class="img2"	src="conference2.jpg" alt="conference" height=150px width=300px /></a></div>
+
+		<div class="titrecontent2">
+			<a href="#"><h3 class="texte"> Dossiers pédagogiques </h3></a>
+			<a href="#" > <img class="img2" src="dossier.jpg" alt="dossier" height=150px width=300px /></a></div>
+
+		<div class="titrecontent2">
+			<a href="#"><h3 class="texte"> Partenaires </h3></a>
+			<a href="#" > <img class="img2" src="partenariat.jpg" alt="partenariat" height=150px width=300px /></a></div>
+	</div>
+
+	<div class="content">
+
+		<div id="Article1">
+			<h3 class="titreContent"> Notre Association </h3>
+			<div class="img-art"> </div>
+				<p class="texte">	
+					Notre association a été créée il y a 5 ans, pour sensibiliser les gens au recyclage de leurs déchets et pour leur permettre 						d’apprendre à réutiliser de manière créative les objets du quotidien. Notre association développe plusieurs actions auprès 						de différents publics. Nous nous déplaçons dans les écoles pour apprendre aux enfants à recycler leurs déchets.
+					Nous leur proposons aussi des stages et ateliers créatifs le samedi et pendant les vacances scolaires pour fabriquer de 					nouveaux objets ludiques, utiles ou décoratifs, à partir des déchets collectés. Nos ateliers sont toujours organisés autour 						d’un type de déchet en particulier (canettes, plastiques, papiers, outils, pneus, etc).
+				</p>
+			</div>
+
+		<div id="block2">
+			<div>
+				<h3 class="titreContent"> Vos créations </h3>
+				<p class="texte">	
+					Comme chaque semaine, nous publions vos meilleurs astuces afin nos objets aient une seconde vie. Et comme chaque semaine, le choix a été très difficile. 						Continuez et soyez nombreux a publier vos astuces dans la section <a class="texte_lien" href="forum.html"> forum.</a> </p>
+			</div>
+
+			<div>
+				<h3 class="titreContent"> Posts de la semaine </h3>
+				<p class="texte">
+				<table>
+					<tr>
+						<td><img class="boitepourfil" src="boitepourfil.png" alt="boiteafil" /></td>
+						<td class="texte">
+						Une boite de chaussure, du scotch et du papier de toilettes, et vous avez une boite de rangement super pratique. Post proposé par Mr.Cerin.</td>
+					</tr>
+					<tr><td><img class="boitepourfil" src="cadrecd.jpg" alt="cadre a cd" /></td> 
+						<td class="texte">Un cadre simple, des CD non utilisé? Alors brisez le CD recoller les morceaux sur votre 							cadre pour un cadre, design et écolo. Post proposé par Mme. Azzag</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+		<div>		
+			<footer>
+				<a href="https://www.instagram.com/">	<img src="inst.png" alt="Instagram" class="img-footer"/></a>
+				<a href="https://twitter.com/?lang=fr">	<img src="logo-twitter-rond.png" alt="Twitter" class="img-footer"/></a>
+				<a href="https://fr-fr.facebook.com/"><img src="logo-facebook.png" alt="Facebook" class="img-footer"/></a>
+				<a id="CP" href="http://aquanux/~11504512/projet/copyright.html" target="_blank">Copyright</a>
+				<a href="http://www.paris.fr/">	<img src="paris.png" alt="mairie de Paris"/></a>
+				<a href="http://www.developpement-durable.gouv.fr/">
+					<img src="ministère écolo.jpg" alt="ministère écologique" width=60px height=60px />
+				</a>
+				<a href="https://www.univ-paris13.fr/"><img src="univp13.jpg" alt="UP13" width=170px height=60px /></a>
+			</footer>
+		</div>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

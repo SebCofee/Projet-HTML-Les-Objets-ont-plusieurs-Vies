@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>OPV - Contact</title>
+			<link rel="stylesheet" type="text/css" href="contact.css">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" type="text/css">
+		</head>
+
+	<body>
+		<div>
+  			<header>
+						<a href="http://aquanux/~11504512/projet/accueil.html">
+							<img id="img-head" src="logo.png" alt="logo" width=224px height=213px />
+						</a>
+    				<h1 id="titre">Les objets ont plusieurs vies !</h1>
+  			</header>
+		</div>
+
+		<nav>
+  			<ul id="navigation">
+				<li> 
+					<a href="http://aquanux/~11504512/projet/accueil.html"><img src="logo_home.png" alt="Home" class="img-nav"/></a> 
+				</li>
+    			<li class="liN onglet"> 
+						<a id="assoc" href="http://aquanux/~11504512/projet/association.html">L'Association</a> 
+					</li>
+    			<li class="liN onglet"> <a id="actu" href="http://aquanux/~11504512/projet/actu.html">L'Actu'</a></li>
+    			<li class="liN onglet"> <a id="galerie" href="http://aquanux/~11504512/projet/galerie.html">Galerie</a> </li>
+    			<li class="liN onglet"> <a id="locaux" href="http://aquanux/~11504512/projet/locaux.html">Le Q.G.</a> </li>
+    			<li class="liN onglet"> <a id="forum" href="http://aquanux/~11504512/projet/forum.html">Le Forum</a> </li>
+    			<li class="liN onglet"> <a id="contact" href="http://aquanux/~11504512/projet/contact.html">Contact</a> </li>
+    			<li> 			
+						<form role="search" method="get" class="forme" action="https://www.google.fr/">
+							<label>
+								<input type="recherche" 
+											class="espace-recherche" 
+											placeholder="Recherche"  
+											value="" name="q" 
+											title="Rechercher:">
+							</label>
+							<input type="submit" class="rech" value="Recherche" name="q">
+						</form>
+ 					</li>
+			</ul>
+		</nav>
+
+		<div>
+			<div id="google">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2697141761037!2d2.368472815674878!3d48.87213467928891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66de1a23e20b1%3A0x1c3c7d027359e6d!2s13+Rue+Arthur+Groussier%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1452781642912" width="600" height="450" frameborder="1" style="border:1" allowfullscreen></iframe>
+			</div>
+
+			<div class="right">
+				<div>
+					<h3 class="titre"> Nous contacter </h3>
+				</div>
+				<div class="inlineleft">
+						<p class="texte">
+							Association "Les objets ont plusieurs vie"<br>
+							13 Rue Arthur Groussier,<br>
+							75010 Paris<br>
+							Nous contacter: association@opv.fr<br>
+							téléphone: (+33)6.69.69.69.69
+						</p>
+				</div>
+				<div class="inlineright	">
+					<div id="verticale">
+						<a href="https://www.facebook.com/"><img class="petitlogo" src="logo-facebook.png" alt="fb"></a>
+						<a href="https://www.twitter.com/"><img class="petitlogo" src="logo-twitter-rond.png" alt="twitter"></a>
+						<a href="https://www.instagram.com/"> <img class="petitlogo" src="inst.png" alt="insta"> </a>
+					</div>
+				</div>
+			</div>
+
+			<div class="right">
+				<h3 class="titre"> Faire un don </h3>
+					<p class="texte">
+						les dons nous permettent de récolter des fonds afin de continuez nos actions, et maintient la survie du 						site. Chaque euro à son importance, dans le but de sauvez notre planète.
+					</p>
+				<div id="block3" >
+					<a href="#" > <img id="dons"src="paypal.png" alt="Paypal" height=100px widht=100px /> </a> 
+				</div>
+					
+			</div>
+
+
+
+
+
+	
+			
+
+
+
+
+
+		</div>
+
+		<div>		
+			<footer>
+				<a href="https://www.instagram.com/"><img src="inst.png" alt="Instagram" class="img-footer"/></a>
+				<a href="https://twitter.com/?lang=fr"><img src="logo-twitter-rond.png" alt="Twitter" class="img-footer"/></a>
+				<a href="https://fr-fr.facebook.com/"><img src="logo-facebook.png" alt="Facebook" class="img-footer"/></a>
+				<a id ="CP" href="copyright.html" target="_blank">Copyright</a>
+				<a href="http://www.paris.fr/"><img src="paris.png" alt="mairie de Paris"/></a>
+				<a href="http://www.developpement-durable.gouv.fr/">
+					<img src="ministère écolo.jpg" alt="ministère écologique" width=60px height=60px />
+				</a>
+				<a href="https://www.univ-paris13.fr/"><img src="univp13.jpg" alt="UP13" width=170px height=60px /></a>
+			</footer>
+		</div>
+	</body>
+</html>

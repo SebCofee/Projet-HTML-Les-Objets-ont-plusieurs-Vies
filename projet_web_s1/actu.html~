@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>OPV - L'Actu</title>
+		<link rel="stylesheet" type="text/css" href="actu.css">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+
+		<div>
+  			<header>
+						<a href="http://aquanux/~11504512/projet/accueil.html">
+							<img id="img-head" src="logo.png" alt="logo" width=224px height=213px />
+						</a>
+    				<h1 id="titre">Les objets ont plusieurs vies !</h1>
+  			</header>
+		</div>
+
+		<nav>
+  			<ul id="navigation">
+				<li> 
+					<a href="accueil.html"><img src="logo_home.png" alt="Home" class="img-nav"/></a> 
+				</li>
+    			<li class="liN onglet"> 
+						<a id="assoc" href="http://aquanux/~11504512/projet/association.html">L'Association</a> 
+					</li>
+    			<li class="liN onglet"> <a id="actu" href="actu.html">L'Actu'</a></li>
+    			<li class="liN onglet"> <a id="galerie" href="galerie.html">Galerie</a> </li>
+    			<li class="liN onglet"> <a id="locaux" href="locaux.html">Le Q.G.</a> </li>
+    			<li class="liN onglet"> <a id="forum" href="forum.html">Le Forum</a> </li>
+    			<li class="liN onglet"> <a id="contact" href="contact.html">Contact</a> </li>
+    			<li> 			
+						<form role="search" method="get" class="forme" action="https://www.google.fr/">
+							<label>
+								<input type="recherche" 
+											class="espace-recherche" 
+											placeholder="Recherche"  
+											value="" name="q" 
+											title="Rechercher:">
+							</label>
+							<input type="submit" class="rech" value="Recherche" name="q">
+						</form>
+ 					</li>
+			</ul>
+		</nav>
+		
+		<div>
+			<img src="bandeau2.jpg" alt="bandeau" id="bandeau"/>
+		</div>
+
+	<div id="content">
+		<div id="Article1">
+			<h3 class="titreContent"> Quels idées pour penser à recycler?  </h3>
+			<div class="img-art"> <img src="azer.jpg" alt="photoArticle1.jpg" /> </div>
+			<p class="texte">	
+				L'artiste JC Dubacq sensibilise la ville plusieurs villes au recyclage des bouteilles. Comment ?
+				L'artiste a tout simplement repeint avec une culture pop les bennes à ordures destinées au recyclage des bouteillesen verre. 					L'artiste refais le paysage, fait attirer l'oeil des piétons à la benne, ce qui à pour but d'à la fois sensibiliser les 				passants au recyclage, mais en plus de ça, mettre de la couleur dans notre vie, nos rues, les rendant beaucoup plus agréable. 
+			</p>
+		</div>
+
+		<div id="Article2">
+			<h3 class="titreContent"> Ailleurs dans la presse </h3>
+			<div>	
+					<h4 class="titre">La COP21: Un succès à déterminer</h4>					
+					<table>
+					<tr><td><img src="cop21.png" alt="logoCop21" width=100px height=100px /></td>
+						<td><strong>Arraché après de longues nuits de négociations, l’accord signé 									au 										terme de la 21e conférence mondiale sur le climat est présenté comme une réussite mais doit encore 										être traduit dans les faits.
+						<a href="https://fr-fr.facebook.com/"> En savoir plus ici.</a> </strong>
+					</table>
+
+					<h4 class="titre">Interventions scolaires</h4>					
+					<table>
+					<tr><td><img src="actu2enfantecole.JPG" alt="PedoBearALecole" width=100px height=100px /></td>
+						<td><strong>Notre association a encore une fois fais le tour de toutes les école primaire de la région, afin d'enseigner dès le plus jeune âge l'importance du recyclage. Les petits, d'une immagination impressionnante nous ont encore une fois surpris. Cette tournée des écoles, nous a value un article dans le quotidien "RégionNews".
+						<a href="..."> Article.</a> </strong>
+					</table>
+
+					<h4 class="titre">Collecte du 24 fevrier</h4>					
+					<table>
+					<tr><td><img src="actu1.jpg" alt="BolossEnBouteille" width=100px height=100px /></td>
+						<td><strong>La grande collecte du jour est arrivée ! C'est le moment pour vous de récolter un maximum de bouteilles, et de tout autres objets recyclables de la maison, et à venir à les ramener jusqu'a notre benne commune. Ces bouteilles seront tout réutiliser pour récreer des objets divers et variés.
+						<a href="..."> En savoir plus.</a> </strong>
+					</table>
+
+
+
+
+			</div>
+			
+		</div>
+		<div id="event">
+			<h3 id="titreEvent"> Événements </h3>
+			<table id="calendar">
+				<tr><td id="cop"><h4> 30/11/2015 </h4> <strong>La COP21 est chez nous!</strong> 
+					<a href="http://www.cop21.gouv.fr/">En savoir plus</a></td></tr>
+				<tr><td class="calendar2"> <h4> __/__/__ </h4> lorem ipsum dolor sit amet<a href="#"> lire la suite... </a></td></tr>
+				<tr><td class="calendar2"> <h4> __/__/__ </h4> lorem ipsum dolor sit amet<a href="#"> lire la suite... </a></td></tr>
+				<tr><td class="calendar2"> <h4> __/__/__ </h4> lorem ipsum dolor sit amet<a href="#"> lire la suite... </a></td></tr>
+				<tr><td class="calendar2"> <h4> __/__/__ </h4> lorem ipsum dolor sit amet<a href="#"> lire la suite... </a></td></tr>
+			</table>
+		</div>
+
+	</div>
+
+		<div>		
+			<footer>
+				<a href="https://www.instagram.com/"><img src="inst.png" alt="Instagram" class="img-footer"/></a>
+				<a href="https://twitter.com/?lang=fr"><img src="logo-twitter-rond.png" alt="Twitter"class="img-footer"/></a>
+				<a href="https://fr-fr.facebook.com/"><img src="logo-facebook.png" alt="Facebook"class="img-footer"/></a>
+				<a id="CP" href="http://aquanux/~11504512/projet/copyright.html" target="_blank">Copyright</a>
+				<a href="http://www.paris.fr/"><img src="paris.png" alt="mairie de Paris"/></a>
+				<a href="http://www.developpement-durable.gouv.fr/">
+					<img src="ministère écolo.jpg" alt="ministère écologique" width=60px height=60px />
+				</a>
+				<a href="https://www.univ-paris13.fr/"><img src="univp13.jpg" alt="UP13" width=170px height=60px /></a>
+			</footer>
+		</div>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
